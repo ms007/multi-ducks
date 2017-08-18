@@ -1,16 +1,17 @@
 {
   "env": {
     "es6": true,
-    "browser": true
+    "browser": true,
+    "jest/globals": true
   },
   "parserOptions": {
-    "ecmaVersion": 7,
+    "ecmaVersion": 8,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
     }
   },
-  "plugins": ["react", "lodash-fp"],
+  "plugins": ["react", "jest", "lodash-fp"],
   "extends": "airbnb",
   "rules": {
     "linebreak-style": ["off"],

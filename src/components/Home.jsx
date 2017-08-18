@@ -1,14 +1,15 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Home = ({ children }) =>
-  (<div>
-    <h2>
+  <div>
+    <h2 className="Home__Title">
       {children}
     </h2>
-  </div>);
+  </div>;
 
 Home.propTypes = {
-  children: PropTypes.element.isRequired
+  children: PropTypes.node.isRequired
 };
 
 export default Home;
