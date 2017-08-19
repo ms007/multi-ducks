@@ -6,10 +6,6 @@ describe('Home', () => {
   it('Home has appropriate classes', () => {
     const wrapper = shallow(<Home>test</Home>);
 
-<<<<<<< HEAD
-    expect(wrapper.find('h2').hasClass('Home__Titles')).toBe(true);
-=======
     expect(wrapper.find('h2').hasClass('Home__Title')).toBe(true);
->>>>>>> enable tests
   });
 });
